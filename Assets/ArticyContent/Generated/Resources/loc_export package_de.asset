@@ -1,0 +1,2386 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1080164415, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: loc_export package_de
+  m_EditorClassIdentifier: 
+  mLocaKeys:
+  - FFr_Cell.DisplayName
+  - FFr_Cell.Text
+  - FFr_Corridor.DisplayName
+  - FFr_Corridor.Text
+  - FFr_Cellar.DisplayName
+  - FFr_Cellar.Text
+  - FFr_TheEnd.DisplayName
+  - FFr_TheEnd.Text
+  - FFr_Lobby.DisplayName
+  - FFr_Lobby.Text
+  - Dlg_649F8435.DisplayName
+  - Dlg_649F8435.Text
+  - Dlg_TheTherapist.DisplayName
+  - Dlg_TheTherapist.Text
+  - Dlg_TheClosedDoor.DisplayName
+  - Dlg_TheClosedDoor.Text
+  - Dlg_Umbrella.DisplayName
+  - Dlg_Umbrella.Text
+  - Dlg_HelpMe.DisplayName
+  - Dlg_HelpMe.Text
+  - Dlg_EnvironmentComments.DisplayName
+  - Dlg_EnvironmentComments.Text
+  - Dlg_Trapped.DisplayName
+  - Dlg_Trapped.Text
+  - Dlg_TheHamster.DisplayName
+  - Dlg_TheHamster.Text
+  - Dlg_UpperDrawer.DisplayName
+  - Dlg_UpperDrawer.Text
+  - Dlg_Overflow.DisplayName
+  - Dlg_Overflow.Text
+  - Dlg_EnvironmentComments_Cellar.DisplayName
+  - Dlg_EnvironmentComments_Cellar.Text
+  - Dlg_BombConstructionManual.DisplayName
+  - Dlg_BombConstructionManual.Text
+  - Dlg_Locker.DisplayName
+  - Dlg_Locker.Text
+  - Dlg_Judgement.DisplayName
+  - Dlg_Judgement.Text
+  - Dlg_ManfredVsDrArtieCee.DisplayName
+  - Dlg_ManfredVsDrArtieCee.Text
+  - Dlg_ManfredVsTheGuard.DisplayName
+  - Dlg_ManfredVsTheGuard.Text
+  - Dlg_ItemInteractions_Lobby.DisplayName
+  - Dlg_ItemInteractions_Lobby.Text
+  - Dlg_EnvironmentComments_Lobby.DisplayName
+  - Dlg_EnvironmentComments_Lobby.Text
+  - Dlg_ItemInteractions.DisplayName
+  - Dlg_ItemInteractions.Text
+  - DFr_3417D7D7.PreviewText
+  - DFr_3417D7D7.StageDirections
+  - DFr_3417D7D7.Text
+  - DFr_FE85200B.PreviewText
+  - DFr_FE85200B.StageDirections
+  - DFr_FE85200B.Text
+  - DFr_570BFF47.PreviewText
+  - DFr_570BFF47.StageDirections
+  - DFr_570BFF47.Text
+  - DFr_62812D41.PreviewText
+  - DFr_62812D41.StageDirections
+  - DFr_62812D41.Text
+  - DFr_768FD20A.PreviewText
+  - DFr_768FD20A.StageDirections
+  - DFr_768FD20A.Text
+  - DFr_E3AC36E6.PreviewText
+  - DFr_E3AC36E6.StageDirections
+  - DFr_E3AC36E6.Text
+  - DFr_AFFEF7FB.PreviewText
+  - DFr_AFFEF7FB.StageDirections
+  - DFr_AFFEF7FB.Text
+  - DFr_CFD417A4.PreviewText
+  - DFr_CFD417A4.StageDirections
+  - DFr_CFD417A4.Text
+  - DFr_B99D1535.PreviewText
+  - DFr_B99D1535.StageDirections
+  - DFr_B99D1535.Text
+  - DFr_47A622A4.PreviewText
+  - DFr_47A622A4.StageDirections
+  - DFr_47A622A4.Text
+  - DFr_21529E2A.PreviewText
+  - DFr_21529E2A.StageDirections
+  - DFr_21529E2A.Text
+  - DFr_F807073D.PreviewText
+  - DFr_F807073D.StageDirections
+  - DFr_F807073D.Text
+  - DFr_C68A3C2A.PreviewText
+  - DFr_C68A3C2A.StageDirections
+  - DFr_C68A3C2A.Text
+  - DFr_E76A8DE7.PreviewText
+  - DFr_E76A8DE7.StageDirections
+  - DFr_E76A8DE7.Text
+  - DFr_077D21C0.PreviewText
+  - DFr_077D21C0.StageDirections
+  - DFr_077D21C0.Text
+  - DFr_F83B9B96.PreviewText
+  - DFr_F83B9B96.StageDirections
+  - DFr_F83B9B96.Text
+  - DFr_2A757012.PreviewText
+  - DFr_2A757012.StageDirections
+  - DFr_2A757012.Text
+  - DFr_E6F6D67C.PreviewText
+  - DFr_E6F6D67C.StageDirections
+  - DFr_E6F6D67C.Text
+  - DFr_85615A1C.PreviewText
+  - DFr_85615A1C.StageDirections
+  - DFr_85615A1C.Text
+  - DFr_07F8B90E.PreviewText
+  - DFr_07F8B90E.StageDirections
+  - DFr_07F8B90E.Text
+  - DFr_DBDEF386.PreviewText
+  - DFr_DBDEF386.StageDirections
+  - DFr_DBDEF386.Text
+  - DFr_86AB90CE.PreviewText
+  - DFr_86AB90CE.StageDirections
+  - DFr_86AB90CE.Text
+  - DFr_93D35222.PreviewText
+  - DFr_93D35222.StageDirections
+  - DFr_93D35222.Text
+  - DFr_7E36A9C4.PreviewText
+  - DFr_7E36A9C4.StageDirections
+  - DFr_7E36A9C4.Text
+  - DFr_DECDC4FC.PreviewText
+  - DFr_DECDC4FC.StageDirections
+  - DFr_DECDC4FC.Text
+  - DFr_C7E26921.PreviewText
+  - DFr_C7E26921.StageDirections
+  - DFr_C7E26921.Text
+  - DFr_2D82B578.PreviewText
+  - DFr_2D82B578.StageDirections
+  - DFr_2D82B578.Text
+  - DFr_BF4DF05C.PreviewText
+  - DFr_BF4DF05C.StageDirections
+  - DFr_BF4DF05C.Text
+  - DFr_D477B140.PreviewText
+  - DFr_D477B140.StageDirections
+  - DFr_D477B140.Text
+  - DFr_3C986E7C.PreviewText
+  - DFr_3C986E7C.StageDirections
+  - DFr_3C986E7C.Text
+  - DFr_3CE3A7C7.PreviewText
+  - DFr_3CE3A7C7.StageDirections
+  - DFr_3CE3A7C7.Text
+  - DFr_42EBB506.PreviewText
+  - DFr_42EBB506.StageDirections
+  - DFr_42EBB506.Text
+  - DFr_19FC09FB.PreviewText
+  - DFr_19FC09FB.StageDirections
+  - DFr_19FC09FB.Text
+  - DFr_4F1A58AA.PreviewText
+  - DFr_4F1A58AA.StageDirections
+  - DFr_4F1A58AA.Text
+  - DFr_4B99DDD8.PreviewText
+  - DFr_4B99DDD8.StageDirections
+  - DFr_4B99DDD8.Text
+  - DFr_B1D1FCD6.PreviewText
+  - DFr_B1D1FCD6.StageDirections
+  - DFr_B1D1FCD6.Text
+  - DFr_94BFD742.PreviewText
+  - DFr_94BFD742.StageDirections
+  - DFr_94BFD742.Text
+  - DFr_C2E7F261.PreviewText
+  - DFr_C2E7F261.StageDirections
+  - DFr_C2E7F261.Text
+  - DFr_C8372D95.PreviewText
+  - DFr_C8372D95.StageDirections
+  - DFr_C8372D95.Text
+  - DFr_A79A0E3C.PreviewText
+  - DFr_A79A0E3C.StageDirections
+  - DFr_A79A0E3C.Text
+  - DFr_1C9B7D0D.PreviewText
+  - DFr_1C9B7D0D.StageDirections
+  - DFr_1C9B7D0D.Text
+  - DFr_97691CB3.PreviewText
+  - DFr_97691CB3.StageDirections
+  - DFr_97691CB3.Text
+  - DFr_E2D713E1.PreviewText
+  - DFr_E2D713E1.StageDirections
+  - DFr_E2D713E1.Text
+  - DFr_1A1ED2B9.PreviewText
+  - DFr_1A1ED2B9.StageDirections
+  - DFr_1A1ED2B9.Text
+  - DFr_BA3AEDF3.PreviewText
+  - DFr_BA3AEDF3.StageDirections
+  - DFr_BA3AEDF3.Text
+  - DFr_D27CBDAD.PreviewText
+  - DFr_D27CBDAD.StageDirections
+  - DFr_D27CBDAD.Text
+  - DFr_A03A6199.PreviewText
+  - DFr_A03A6199.StageDirections
+  - DFr_A03A6199.Text
+  - DFr_EFE0F58F.PreviewText
+  - DFr_EFE0F58F.StageDirections
+  - DFr_EFE0F58F.Text
+  - DFr_715BDAA9.PreviewText
+  - DFr_715BDAA9.StageDirections
+  - DFr_715BDAA9.Text
+  - DFr_CE137142.PreviewText
+  - DFr_CE137142.StageDirections
+  - DFr_CE137142.Text
+  - DFr_B6E69130.PreviewText
+  - DFr_B6E69130.StageDirections
+  - DFr_B6E69130.Text
+  - DFr_C438B0AE.PreviewText
+  - DFr_C438B0AE.StageDirections
+  - DFr_C438B0AE.Text
+  - DFr_0B985180.PreviewText
+  - DFr_0B985180.StageDirections
+  - DFr_0B985180.Text
+  - DFr_2A7F31C2.PreviewText
+  - DFr_2A7F31C2.StageDirections
+  - DFr_2A7F31C2.Text
+  - DFr_6C6083FC.PreviewText
+  - DFr_6C6083FC.StageDirections
+  - DFr_6C6083FC.Text
+  - DFr_70EF3FE5.PreviewText
+  - DFr_70EF3FE5.StageDirections
+  - DFr_70EF3FE5.Text
+  - DFr_681EE828.PreviewText
+  - DFr_681EE828.StageDirections
+  - DFr_681EE828.Text
+  - DFr_3C11FAA9.PreviewText
+  - DFr_3C11FAA9.StageDirections
+  - DFr_3C11FAA9.Text
+  - DFr_C27F787D.PreviewText
+  - DFr_C27F787D.StageDirections
+  - DFr_C27F787D.Text
+  - DFr_52056F78.PreviewText
+  - DFr_52056F78.StageDirections
+  - DFr_52056F78.Text
+  - DFr_E5F7310F.PreviewText
+  - DFr_E5F7310F.StageDirections
+  - DFr_E5F7310F.Text
+  - DFr_9EAE8C3A.PreviewText
+  - DFr_9EAE8C3A.StageDirections
+  - DFr_9EAE8C3A.Text
+  - DFr_5A7BEF84.PreviewText
+  - DFr_5A7BEF84.StageDirections
+  - DFr_5A7BEF84.Text
+  - DFr_23D0CE3F.PreviewText
+  - DFr_23D0CE3F.StageDirections
+  - DFr_23D0CE3F.Text
+  - DFr_8575F80E.PreviewText
+  - DFr_8575F80E.StageDirections
+  - DFr_8575F80E.Text
+  - DFr_CE087842.PreviewText
+  - DFr_CE087842.StageDirections
+  - DFr_CE087842.Text
+  - DFr_56CFD22B.PreviewText
+  - DFr_56CFD22B.StageDirections
+  - DFr_56CFD22B.Text
+  - DFr_5912A2F1.PreviewText
+  - DFr_5912A2F1.StageDirections
+  - DFr_5912A2F1.Text
+  - DFr_49A08935.PreviewText
+  - DFr_49A08935.StageDirections
+  - DFr_49A08935.Text
+  - DFr_7C8A154A.PreviewText
+  - DFr_7C8A154A.StageDirections
+  - DFr_7C8A154A.Text
+  - DFr_FE8748B3.PreviewText
+  - DFr_FE8748B3.StageDirections
+  - DFr_FE8748B3.Text
+  - DFr_88D22A4D.PreviewText
+  - DFr_88D22A4D.StageDirections
+  - DFr_88D22A4D.Text
+  - DFr_5B9FCCF3.PreviewText
+  - DFr_5B9FCCF3.StageDirections
+  - DFr_5B9FCCF3.Text
+  - DFr_28A974CA.PreviewText
+  - DFr_28A974CA.StageDirections
+  - DFr_28A974CA.Text
+  - DFr_9C7EF2C9.PreviewText
+  - DFr_9C7EF2C9.StageDirections
+  - DFr_9C7EF2C9.Text
+  - DFr_EB39E1F9.PreviewText
+  - DFr_EB39E1F9.StageDirections
+  - DFr_EB39E1F9.Text
+  - DFr_B490BE6A.PreviewText
+  - DFr_B490BE6A.StageDirections
+  - DFr_B490BE6A.Text
+  - DFr_F146A6C3.PreviewText
+  - DFr_F146A6C3.StageDirections
+  - DFr_F146A6C3.Text
+  - DFr_39F9B428.PreviewText
+  - DFr_39F9B428.StageDirections
+  - DFr_39F9B428.Text
+  - DFr_C6890105.PreviewText
+  - DFr_C6890105.StageDirections
+  - DFr_C6890105.Text
+  - DFr_6C4EA058.PreviewText
+  - DFr_6C4EA058.StageDirections
+  - DFr_6C4EA058.Text
+  - DFr_93F81F2F.PreviewText
+  - DFr_93F81F2F.StageDirections
+  - DFr_93F81F2F.Text
+  - DFr_394ABAA4.PreviewText
+  - DFr_394ABAA4.StageDirections
+  - DFr_394ABAA4.Text
+  - DFr_56D9430D.PreviewText
+  - DFr_56D9430D.StageDirections
+  - DFr_56D9430D.Text
+  - DFr_68B2223D.PreviewText
+  - DFr_68B2223D.StageDirections
+  - DFr_68B2223D.Text
+  - DFr_E615FB35.PreviewText
+  - DFr_E615FB35.StageDirections
+  - DFr_E615FB35.Text
+  - DFr_B9A7548E.PreviewText
+  - DFr_B9A7548E.StageDirections
+  - DFr_B9A7548E.Text
+  - DFr_10A5AB43.PreviewText
+  - DFr_10A5AB43.StageDirections
+  - DFr_10A5AB43.Text
+  - DFr_25289F3F.PreviewText
+  - DFr_25289F3F.StageDirections
+  - DFr_25289F3F.Text
+  - DFr_425E8DD7.PreviewText
+  - DFr_425E8DD7.StageDirections
+  - DFr_425E8DD7.Text
+  - DFr_6AB1BD5D.PreviewText
+  - DFr_6AB1BD5D.StageDirections
+  - DFr_6AB1BD5D.Text
+  - DFr_0EC2019D.PreviewText
+  - DFr_0EC2019D.StageDirections
+  - DFr_0EC2019D.Text
+  - DFr_107F54F6.PreviewText
+  - DFr_107F54F6.StageDirections
+  - DFr_107F54F6.Text
+  - DFr_C0D213B7.PreviewText
+  - DFr_C0D213B7.StageDirections
+  - DFr_C0D213B7.Text
+  - DFr_8CB5784C.PreviewText
+  - DFr_8CB5784C.StageDirections
+  - DFr_8CB5784C.Text
+  - DFr_B6E93F0B.PreviewText
+  - DFr_B6E93F0B.StageDirections
+  - DFr_B6E93F0B.Text
+  - DFr_1B5A17C9.PreviewText
+  - DFr_1B5A17C9.StageDirections
+  - DFr_1B5A17C9.Text
+  - DFr_7FC38387.PreviewText
+  - DFr_7FC38387.StageDirections
+  - DFr_7FC38387.Text
+  - DFr_01788986.PreviewText
+  - DFr_01788986.StageDirections
+  - DFr_01788986.Text
+  - DFr_02D545F0.PreviewText
+  - DFr_02D545F0.StageDirections
+  - DFr_02D545F0.Text
+  - DFr_0656B604.PreviewText
+  - DFr_0656B604.StageDirections
+  - DFr_0656B604.Text
+  - DFr_F4548992.PreviewText
+  - DFr_F4548992.StageDirections
+  - DFr_F4548992.Text
+  - DFr_B75B93A4.PreviewText
+  - DFr_B75B93A4.StageDirections
+  - DFr_B75B93A4.Text
+  - DFr_2787F0CF.PreviewText
+  - DFr_2787F0CF.StageDirections
+  - DFr_2787F0CF.Text
+  - DFr_E999AB56.PreviewText
+  - DFr_E999AB56.StageDirections
+  - DFr_E999AB56.Text
+  - DFr_D2B4CCAF.PreviewText
+  - DFr_D2B4CCAF.StageDirections
+  - DFr_D2B4CCAF.Text
+  - DFr_FBBDF9D5.PreviewText
+  - DFr_FBBDF9D5.StageDirections
+  - DFr_FBBDF9D5.Text
+  - DFr_06641B21.PreviewText
+  - DFr_06641B21.StageDirections
+  - DFr_06641B21.Text
+  - DFr_53325C87.PreviewText
+  - DFr_53325C87.StageDirections
+  - DFr_53325C87.Text
+  - DFr_D38EE8D8.PreviewText
+  - DFr_D38EE8D8.StageDirections
+  - DFr_D38EE8D8.Text
+  - DFr_AB5DF4BF.PreviewText
+  - DFr_AB5DF4BF.StageDirections
+  - DFr_AB5DF4BF.Text
+  - DFr_246F8902.PreviewText
+  - DFr_246F8902.StageDirections
+  - DFr_246F8902.Text
+  - DFr_2EDF03C7.PreviewText
+  - DFr_2EDF03C7.StageDirections
+  - DFr_2EDF03C7.Text
+  - DFr_6F93B775.PreviewText
+  - DFr_6F93B775.StageDirections
+  - DFr_6F93B775.Text
+  - DFr_902221C6.PreviewText
+  - DFr_902221C6.StageDirections
+  - DFr_902221C6.Text
+  - DFr_AEACB12C.PreviewText
+  - DFr_AEACB12C.StageDirections
+  - DFr_AEACB12C.Text
+  - DFr_E7F5ABBC.PreviewText
+  - DFr_E7F5ABBC.StageDirections
+  - DFr_E7F5ABBC.Text
+  - DFr_E90A3F07.PreviewText
+  - DFr_E90A3F07.StageDirections
+  - DFr_E90A3F07.Text
+  - DFr_8D1A7482.PreviewText
+  - DFr_8D1A7482.StageDirections
+  - DFr_8D1A7482.Text
+  - DFr_666EB4ED.PreviewText
+  - DFr_666EB4ED.StageDirections
+  - DFr_666EB4ED.Text
+  - DFr_E98F2F40.PreviewText
+  - DFr_E98F2F40.StageDirections
+  - DFr_E98F2F40.Text
+  - DFr_4FDD3547.PreviewText
+  - DFr_4FDD3547.StageDirections
+  - DFr_4FDD3547.Text
+  - DFr_6DA9C67D.PreviewText
+  - DFr_6DA9C67D.StageDirections
+  - DFr_6DA9C67D.Text
+  - DFr_06920BAB.PreviewText
+  - DFr_06920BAB.StageDirections
+  - DFr_06920BAB.Text
+  - DFr_F2F0CDCC.PreviewText
+  - DFr_F2F0CDCC.StageDirections
+  - DFr_F2F0CDCC.Text
+  - DFr_A5CE60FC.PreviewText
+  - DFr_A5CE60FC.StageDirections
+  - DFr_A5CE60FC.Text
+  - DFr_B7E87B90.PreviewText
+  - DFr_B7E87B90.StageDirections
+  - DFr_B7E87B90.Text
+  - DFr_C9D40B8E.PreviewText
+  - DFr_C9D40B8E.StageDirections
+  - DFr_C9D40B8E.Text
+  - DFr_710412EF.PreviewText
+  - DFr_710412EF.StageDirections
+  - DFr_710412EF.Text
+  - DFr_F3B810F0.PreviewText
+  - DFr_F3B810F0.StageDirections
+  - DFr_F3B810F0.Text
+  - DFr_9D242423.PreviewText
+  - DFr_9D242423.StageDirections
+  - DFr_9D242423.Text
+  - DFr_AFC16F26.PreviewText
+  - DFr_AFC16F26.StageDirections
+  - DFr_AFC16F26.Text
+  - DFr_87E5499D.PreviewText
+  - DFr_87E5499D.StageDirections
+  - DFr_87E5499D.Text
+  - DFr_FC431B5F.PreviewText
+  - DFr_FC431B5F.StageDirections
+  - DFr_FC431B5F.Text
+  - DFr_3BEB7B36.PreviewText
+  - DFr_3BEB7B36.StageDirections
+  - DFr_3BEB7B36.Text
+  - DFr_4A27DF71.PreviewText
+  - DFr_4A27DF71.StageDirections
+  - DFr_4A27DF71.Text
+  - DFr_D03D2C9F.PreviewText
+  - DFr_D03D2C9F.StageDirections
+  - DFr_D03D2C9F.Text
+  - DFr_7EA1CE48.PreviewText
+  - DFr_7EA1CE48.StageDirections
+  - DFr_7EA1CE48.Text
+  - DFr_3E1D9D45.PreviewText
+  - DFr_3E1D9D45.StageDirections
+  - DFr_3E1D9D45.Text
+  - DFr_0DE3848D.PreviewText
+  - DFr_0DE3848D.StageDirections
+  - DFr_0DE3848D.Text
+  - DFr_4FE7EEDE.PreviewText
+  - DFr_4FE7EEDE.StageDirections
+  - DFr_4FE7EEDE.Text
+  - DFr_353F7A34.PreviewText
+  - DFr_353F7A34.StageDirections
+  - DFr_353F7A34.Text
+  - DFr_EE745BA4.PreviewText
+  - DFr_EE745BA4.StageDirections
+  - DFr_EE745BA4.Text
+  - DFr_4A17BFDC.PreviewText
+  - DFr_4A17BFDC.StageDirections
+  - DFr_4A17BFDC.Text
+  - DFr_196B82CE.PreviewText
+  - DFr_196B82CE.StageDirections
+  - DFr_196B82CE.Text
+  - DFr_5F9A9351.PreviewText
+  - DFr_5F9A9351.StageDirections
+  - DFr_5F9A9351.Text
+  - DFr_070679BE.PreviewText
+  - DFr_070679BE.StageDirections
+  - DFr_070679BE.Text
+  - DFr_354E0745.PreviewText
+  - DFr_354E0745.StageDirections
+  - DFr_354E0745.Text
+  - DFr_2DDC39C2.PreviewText
+  - DFr_2DDC39C2.StageDirections
+  - DFr_2DDC39C2.Text
+  - DFr_AC6C3414.PreviewText
+  - DFr_AC6C3414.StageDirections
+  - DFr_AC6C3414.Text
+  - DFr_7CDD09B6.PreviewText
+  - DFr_7CDD09B6.StageDirections
+  - DFr_7CDD09B6.Text
+  - DFr_75A0C9B8.PreviewText
+  - DFr_75A0C9B8.StageDirections
+  - DFr_75A0C9B8.Text
+  - DFr_2935ED59.PreviewText
+  - DFr_2935ED59.StageDirections
+  - DFr_2935ED59.Text
+  - DFr_0A2C46C7.PreviewText
+  - DFr_0A2C46C7.StageDirections
+  - DFr_0A2C46C7.Text
+  - DFr_CFB99958.PreviewText
+  - DFr_CFB99958.StageDirections
+  - DFr_CFB99958.Text
+  - DFr_C88B4E45.PreviewText
+  - DFr_C88B4E45.StageDirections
+  - DFr_C88B4E45.Text
+  - DFr_1DDDA871.PreviewText
+  - DFr_1DDDA871.StageDirections
+  - DFr_1DDDA871.Text
+  - DFr_D4BEAB38.PreviewText
+  - DFr_D4BEAB38.StageDirections
+  - DFr_D4BEAB38.Text
+  - DFr_2205A178.PreviewText
+  - DFr_2205A178.StageDirections
+  - DFr_2205A178.Text
+  - DFr_A0BC16E0.PreviewText
+  - DFr_A0BC16E0.StageDirections
+  - DFr_A0BC16E0.Text
+  - DFr_99D6DB8B.PreviewText
+  - DFr_99D6DB8B.StageDirections
+  - DFr_99D6DB8B.Text
+  - DFr_29F2674D.PreviewText
+  - DFr_29F2674D.StageDirections
+  - DFr_29F2674D.Text
+  - DFr_39BEA97D.PreviewText
+  - DFr_39BEA97D.StageDirections
+  - DFr_39BEA97D.Text
+  - DFr_9D824AF2.PreviewText
+  - DFr_9D824AF2.StageDirections
+  - DFr_9D824AF2.Text
+  - DFr_0092C8D0.PreviewText
+  - DFr_0092C8D0.StageDirections
+  - DFr_0092C8D0.Text
+  - DFr_061A0A5B.PreviewText
+  - DFr_061A0A5B.StageDirections
+  - DFr_061A0A5B.Text
+  - DFr_89C7D092.PreviewText
+  - DFr_89C7D092.StageDirections
+  - DFr_89C7D092.Text
+  - DFr_4B823652.PreviewText
+  - DFr_4B823652.StageDirections
+  - DFr_4B823652.Text
+  - DFr_AC0BCAE5.PreviewText
+  - DFr_AC0BCAE5.StageDirections
+  - DFr_AC0BCAE5.Text
+  - DFr_13AEA032.PreviewText
+  - DFr_13AEA032.StageDirections
+  - DFr_13AEA032.Text
+  - DFr_3C4E3F7F.PreviewText
+  - DFr_3C4E3F7F.StageDirections
+  - DFr_3C4E3F7F.Text
+  - DFr_44E6CBD6.PreviewText
+  - DFr_44E6CBD6.StageDirections
+  - DFr_44E6CBD6.Text
+  - DFr_AE0031C4.PreviewText
+  - DFr_AE0031C4.StageDirections
+  - DFr_AE0031C4.Text
+  - DFr_0DC8C28C.PreviewText
+  - DFr_0DC8C28C.StageDirections
+  - DFr_0DC8C28C.Text
+  - DFr_16A2E81A.PreviewText
+  - DFr_16A2E81A.StageDirections
+  - DFr_16A2E81A.Text
+  - DFr_B4B971EB.PreviewText
+  - DFr_B4B971EB.StageDirections
+  - DFr_B4B971EB.Text
+  - DFr_1B1972EF.PreviewText
+  - DFr_1B1972EF.StageDirections
+  - DFr_1B1972EF.Text
+  - DFr_128AB6E2.PreviewText
+  - DFr_128AB6E2.StageDirections
+  - DFr_128AB6E2.Text
+  - DFr_D06FB1AF.PreviewText
+  - DFr_D06FB1AF.StageDirections
+  - DFr_D06FB1AF.Text
+  - DFr_DA2E90F0.PreviewText
+  - DFr_DA2E90F0.StageDirections
+  - DFr_DA2E90F0.Text
+  - DFr_3A8AA4C7.PreviewText
+  - DFr_3A8AA4C7.StageDirections
+  - DFr_3A8AA4C7.Text
+  - DFr_7F7FADA7.PreviewText
+  - DFr_7F7FADA7.StageDirections
+  - DFr_7F7FADA7.Text
+  - DFr_15A943E8.PreviewText
+  - DFr_15A943E8.StageDirections
+  - DFr_15A943E8.Text
+  - DFr_22406A7F.PreviewText
+  - DFr_22406A7F.StageDirections
+  - DFr_22406A7F.Text
+  - DFr_C931F0D3.PreviewText
+  - DFr_C931F0D3.StageDirections
+  - DFr_C931F0D3.Text
+  - DFr_C148C027.PreviewText
+  - DFr_C148C027.StageDirections
+  - DFr_C148C027.Text
+  - DFr_E8BD2F86.PreviewText
+  - DFr_E8BD2F86.StageDirections
+  - DFr_E8BD2F86.Text
+  - DFr_A95BD732.PreviewText
+  - DFr_A95BD732.StageDirections
+  - DFr_A95BD732.Text
+  - DFr_822770D3.PreviewText
+  - DFr_822770D3.StageDirections
+  - DFr_822770D3.Text
+  - DFr_E0874EF8.PreviewText
+  - DFr_E0874EF8.StageDirections
+  - DFr_E0874EF8.Text
+  - DFr_7BF106D5.PreviewText
+  - DFr_7BF106D5.StageDirections
+  - DFr_7BF106D5.Text
+  - DFr_BE3600C1.PreviewText
+  - DFr_BE3600C1.StageDirections
+  - DFr_BE3600C1.Text
+  - DFr_82B76009.PreviewText
+  - DFr_82B76009.StageDirections
+  - DFr_82B76009.Text
+  - DFr_D5639C5B.PreviewText
+  - DFr_D5639C5B.StageDirections
+  - DFr_D5639C5B.Text
+  - DFr_47E8B497.PreviewText
+  - DFr_47E8B497.StageDirections
+  - DFr_47E8B497.Text
+  - DFr_9185D792.PreviewText
+  - DFr_9185D792.StageDirections
+  - DFr_9185D792.Text
+  - DFr_0444F69A.PreviewText
+  - DFr_0444F69A.StageDirections
+  - DFr_0444F69A.Text
+  - DFr_9E1CC622.PreviewText
+  - DFr_9E1CC622.StageDirections
+  - DFr_9E1CC622.Text
+  - DFr_2DFD6AA5.PreviewText
+  - DFr_2DFD6AA5.StageDirections
+  - DFr_2DFD6AA5.Text
+  - DFr_EB31984C.PreviewText
+  - DFr_EB31984C.StageDirections
+  - DFr_EB31984C.Text
+  - DFr_7F891C88.PreviewText
+  - DFr_7F891C88.StageDirections
+  - DFr_7F891C88.Text
+  - DFr_312E067B.PreviewText
+  - DFr_312E067B.StageDirections
+  - DFr_312E067B.Text
+  - DFr_0B6CF64A.PreviewText
+  - DFr_0B6CF64A.StageDirections
+  - DFr_0B6CF64A.Text
+  - DFr_7AB5D546.PreviewText
+  - DFr_7AB5D546.StageDirections
+  - DFr_7AB5D546.Text
+  - DFr_36D49D5E.PreviewText
+  - DFr_36D49D5E.StageDirections
+  - DFr_36D49D5E.Text
+  - DFr_C097A441.PreviewText
+  - DFr_C097A441.StageDirections
+  - DFr_C097A441.Text
+  - DFr_23231BDC.PreviewText
+  - DFr_23231BDC.StageDirections
+  - DFr_23231BDC.Text
+  - DFr_64E10DC9.PreviewText
+  - DFr_64E10DC9.StageDirections
+  - DFr_64E10DC9.Text
+  - DFr_21E11067.PreviewText
+  - DFr_21E11067.StageDirections
+  - DFr_21E11067.Text
+  - DFr_43C0CAA3.PreviewText
+  - DFr_43C0CAA3.StageDirections
+  - DFr_43C0CAA3.Text
+  - DFr_3C77A816.PreviewText
+  - DFr_3C77A816.StageDirections
+  - DFr_3C77A816.Text
+  - DFr_7FCFDB25.PreviewText
+  - DFr_7FCFDB25.StageDirections
+  - DFr_7FCFDB25.Text
+  - DFr_4824DD3B.PreviewText
+  - DFr_4824DD3B.StageDirections
+  - DFr_4824DD3B.Text
+  - Hub_DC2BCE7C.DisplayName
+  - Hub_DC2BCE7C.Text
+  - Hub_3AF9A80E.DisplayName
+  - Hub_3AF9A80E.Text
+  - Hub_A0620908.DisplayName
+  - Hub_A0620908.Text
+  - Jmp_6CE36D2F.Text
+  - Jmp_ED4982B0.Text
+  - Jmp_B30F419D.Text
+  - Jmp_D6840DF2.Text
+  - Jmp_7546CBB9.Text
+  - Jmp_1121DF2C.Text
+  - Jmp_90BF1A9E.Text
+  - Cnd_5B626A44.DisplayName
+  - Cnd_5B626A44.Text
+  - Cnd_CA9EBF57.DisplayName
+  - Cnd_CA9EBF57.Text
+  - Cnd_DF8F350E.DisplayName
+  - Cnd_DF8F350E.Text
+  - Cnd_1DE28CA9.DisplayName
+  - Cnd_1DE28CA9.Text
+  - Cnd_5DFE42FA.DisplayName
+  - Cnd_5DFE42FA.Text
+  - Cnd_1B59E613.DisplayName
+  - Cnd_1B59E613.Text
+  - 72057598332898416.Text
+  - 72057598332897086.Text
+  - 72057598332897091.Text
+  - 72057598332897104.Text
+  - 72057598332897160.Text
+  - 72057598332897174.Text
+  - Doc_54A1317A.DisplayName
+  - Doc_54A1317A.Text
+  - Doc_DB75F47C.DisplayName
+  - Doc_DB75F47C.Text
+  - Txt_967070FA.DisplayName
+  - Txt_967070FA.Text
+  - Txt_8087FFD5.DisplayName
+  - Txt_8087FFD5.Text
+  - Txt_FF932756.DisplayName
+  - Txt_FF932756.Text
+  - Txt_A8FC24CF.DisplayName
+  - Txt_A8FC24CF.Text
+  - Txt_5A3BFCB4.DisplayName
+  - Txt_5A3BFCB4.Text
+  - Txt_E48E00E3.DisplayName
+  - Txt_E48E00E3.Text
+  - Txt_37ED7556.DisplayName
+  - Txt_37ED7556.Text
+  - Itm_BombConstructionKit.DisplayName
+  - Itm_BombConstructionKit.Text
+  - Itm_SleepingPills.DisplayName
+  - Itm_SleepingPills.Text
+  - Itm_WeaponsGradePlutonium.DisplayName
+  - Itm_WeaponsGradePlutonium.Text
+  - Itm_Key.DisplayName
+  - Itm_Key.Text
+  - Itm_Crowbar.DisplayName
+  - Itm_Crowbar.Text
+  - Itm_Cable.DisplayName
+  - Itm_Cable.Text
+  - Itm_Bomb.DisplayName
+  - Itm_Bomb.Text
+  - Itm_Banana.DisplayName
+  - Itm_Banana.Text
+  - Itm_AluminiumFoil.DisplayName
+  - Itm_AluminiumFoil.Text
+  - Itm_EnrichedPlutonium.DisplayName
+  - Itm_EnrichedPlutonium.Text
+  - Itm_Detonator.DisplayName
+  - Itm_Detonator.Text
+  - Itm_Hamster.DisplayName
+  - Itm_Hamster.Text
+  - Itm_BananaWithSleepingPills.DisplayName
+  - Itm_BananaWithSleepingPills.Text
+  - Itm_Broom.DisplayName
+  - Itm_Broom.Text
+  - Itm_LetterOpener.DisplayName
+  - Itm_LetterOpener.Text
+  - Chr_UnknownVoice.DisplayName
+  - Chr_UnknownVoice.Text
+  - Chr_Hamster.DisplayName
+  - Chr_Hamster.Text
+  - Chr_Guard.DisplayName
+  - Chr_Guard.Text
+  - Chr_DrArtieCee.DisplayName
+  - Chr_DrArtieCee.Text
+  - Chr_HowILearnedToLoveTheBomb.DisplayName
+  - Chr_HowILearnedToLoveTheBomb.Text
+  - Chr_Manfred.DisplayName
+  - Chr_Manfred.Text
+  - Loc_Corridor.DisplayName
+  - Loc_Corridor.Text
+  - Loc_Lobby.DisplayName
+  - Loc_Lobby.Text
+  - Loc_SanitariumOutside.DisplayName
+  - Loc_SanitariumOutside.Text
+  - Loc_Cellar.DisplayName
+  - Loc_Cellar.Text
+  - Loc_Cell.DisplayName
+  - Loc_Cell.Text
+  - Loc_StartScreen.DisplayName
+  - Loc_StartScreen.Text
+  - Zon_96C4F422.DisplayName
+  - Zon_96C4F422.Text
+  - Zon_D46519D9.DisplayName
+  - Zon_D46519D9.Text
+  - Zon_0D3ABC1D.DisplayName
+  - Zon_0D3ABC1D.Text
+  - Zon_A6481AFA.DisplayName
+  - Zon_A6481AFA.Text
+  - Zon_49B1F38D.DisplayName
+  - Zon_49B1F38D.Text
+  - Zon_CF2F6D14.DisplayName
+  - Zon_CF2F6D14.Text
+  - Zon_3E18D64F.DisplayName
+  - Zon_3E18D64F.Text
+  - Zon_AF5BA592.DisplayName
+  - Zon_AF5BA592.Text
+  - Zon_0F04C00C.DisplayName
+  - Zon_0F04C00C.Text
+  - Zon_28B9A3EB.DisplayName
+  - Zon_28B9A3EB.Text
+  - Zon_D81AA014.DisplayName
+  - Zon_D81AA014.Text
+  - Zon_05E786B2.DisplayName
+  - Zon_05E786B2.Text
+  - Zon_E179D47B.DisplayName
+  - Zon_E179D47B.Text
+  - Zon_4DD2A890.DisplayName
+  - Zon_4DD2A890.Text
+  - Zon_5590F32D.DisplayName
+  - Zon_5590F32D.Text
+  - Zon_75F30EA3.DisplayName
+  - Zon_75F30EA3.Text
+  - Zon_E7A05D07.DisplayName
+  - Zon_E7A05D07.Text
+  - Zon_F1F5E470.DisplayName
+  - Zon_F1F5E470.Text
+  - Zon_1844B187.DisplayName
+  - Zon_1844B187.Text
+  - Zon_DD75A088.DisplayName
+  - Zon_DD75A088.Text
+  - Zon_722668A4.DisplayName
+  - Zon_722668A4.Text
+  - Zon_C046AF06.DisplayName
+  - Zon_C046AF06.Text
+  - Zon_C8A0CC2E.DisplayName
+  - Zon_C8A0CC2E.Text
+  - Zon_DBD71764.DisplayName
+  - Zon_DBD71764.Text
+  - Zon_2359DC67.DisplayName
+  - Zon_2359DC67.Text
+  - Zon_82763669.DisplayName
+  - Zon_82763669.Text
+  - Zon_289DD91B.DisplayName
+  - Zon_289DD91B.Text
+  - Zon_3821831C.DisplayName
+  - Zon_3821831C.Text
+  - Zon_A0C00978.DisplayName
+  - Zon_A0C00978.Text
+  - Zon_81953A2A.DisplayName
+  - Zon_81953A2A.Text
+  - Zon_BC75FEB5.DisplayName
+  - Zon_BC75FEB5.Text
+  - Zon_CDE0FC21.DisplayName
+  - Zon_CDE0FC21.Text
+  - Zon_FB38D9D1.DisplayName
+  - Zon_FB38D9D1.Text
+  - Zon_4B2E23F9.DisplayName
+  - Zon_4B2E23F9.Text
+  - Zon_6F3E5FBF.DisplayName
+  - Zon_6F3E5FBF.Text
+  - Zon_0C4314C5.DisplayName
+  - Zon_0C4314C5.Text
+  - Zon_6E6214EA.DisplayName
+  - Zon_6E6214EA.Text
+  - Zon_AF006106.DisplayName
+  - Zon_AF006106.Text
+  - Zon_D02B3086.DisplayName
+  - Zon_D02B3086.Text
+  - Zon_FAC9C019.DisplayName
+  - Zon_FAC9C019.Text
+  - Zon_6C1D8FF2.DisplayName
+  - Zon_6C1D8FF2.Text
+  - Zon_F339465F.DisplayName
+  - Zon_F339465F.Text
+  - Zon_492E0F76.DisplayName
+  - Zon_492E0F76.Text
+  - Zon_AE5F7AE9.DisplayName
+  - Zon_AE5F7AE9.Text
+  - Zon_DF5293DE.DisplayName
+  - Zon_DF5293DE.Text
+  - Lnk_BF282924.Text
+  - Lnk_E620A002.Text
+  - Lnk_19ACFC8C.Text
+  - Lnk_5723F563.Text
+  - Lnk_2D2120BE.Text
+  - Lnk_8555DEFA.Text
+  - Lnk_AA889231.Text
+  - Lnk_2CB531C8.Text
+  - Lnk_DCBF86CC.Text
+  - Lnk_0032BAFA.Text
+  - Lnk_9F2D46FF.Text
+  - Lnk_7BAE6916.Text
+  - Lnk_88A6E89A.Text
+  - Lnk_63F0F5A9.Text
+  - Lnk_F67F15C6.Text
+  - Lnk_E5C26943.Text
+  - Lnk_9C9AEC53.Text
+  - Lnk_7342F827.Text
+  - Lnk_47417938.Text
+  - Lnk_EE1B800A.Text
+  - Lnk_022473DA.Text
+  - Lnk_046C06F0.Text
+  - Lnk_C7D3F520.Text
+  - LIm_AAA2E04E.DisplayName
+  - LIm_AAA2E04E.Text
+  - LIm_A7C3A3D1.DisplayName
+  - LIm_A7C3A3D1.Text
+  - LIm_A8A0216E.DisplayName
+  - LIm_A8A0216E.Text
+  - LIm_0B116E2C.DisplayName
+  - LIm_0B116E2C.Text
+  - LIm_E2B315CC.DisplayName
+  - LIm_E2B315CC.Text
+  - LIm_941866C2.DisplayName
+  - LIm_941866C2.Text
+  - LIm_C341F96D.DisplayName
+  - LIm_C341F96D.Text
+  - LIm_4872D32C.DisplayName
+  - LIm_4872D32C.Text
+  - LIm_D866F0CD.DisplayName
+  - LIm_D866F0CD.Text
+  - LIm_7F726272.DisplayName
+  - LIm_7F726272.Text
+  - LIm_C0EA8914.DisplayName
+  - LIm_C0EA8914.Text
+  - LIm_4E5E3387.DisplayName
+  - LIm_4E5E3387.Text
+  - LIm_2C37EDDB.DisplayName
+  - LIm_2C37EDDB.Text
+  - LIm_416A3E77.DisplayName
+  - LIm_416A3E77.Text
+  - LIm_AAE366A4.DisplayName
+  - LIm_AAE366A4.Text
+  - LIm_4144DDD6.DisplayName
+  - LIm_4144DDD6.Text
+  - LIm_865006BE.DisplayName
+  - LIm_865006BE.Text
+  - LIm_37BC9113.DisplayName
+  - LIm_37BC9113.Text
+  - LIm_5FF468D7.DisplayName
+  - LIm_5FF468D7.Text
+  - LIm_0D4A62CC.DisplayName
+  - LIm_0D4A62CC.Text
+  - Ast_F1528CD3.DisplayName
+  - Ast_F1528CD3.Text
+  - Ast_194687F5.DisplayName
+  - Ast_194687F5.Text
+  - Ast_5A26629A.DisplayName
+  - Ast_5A26629A.Text
+  - Ast_15437A7F.DisplayName
+  - Ast_15437A7F.Text
+  - Ast_FA0E1A40.DisplayName
+  - Ast_FA0E1A40.Text
+  - Ast_86E2E553.DisplayName
+  - Ast_86E2E553.Text
+  - Ast_776BCB40.DisplayName
+  - Ast_776BCB40.Text
+  - Ast_90C16CDF.DisplayName
+  - Ast_90C16CDF.Text
+  - Ast_004ABC8F.DisplayName
+  - Ast_004ABC8F.Text
+  - Ast_2F881D1B.DisplayName
+  - Ast_2F881D1B.Text
+  - Ast_D2245C54.DisplayName
+  - Ast_D2245C54.Text
+  - Ast_AF5F6AE8.DisplayName
+  - Ast_AF5F6AE8.Text
+  - Ast_AF2AC85B.DisplayName
+  - Ast_AF2AC85B.Text
+  - Ast_B98EAEA8.DisplayName
+  - Ast_B98EAEA8.Text
+  - Ast_CEBF3DA4.DisplayName
+  - Ast_CEBF3DA4.Text
+  - Ast_D1DE9B35.DisplayName
+  - Ast_D1DE9B35.Text
+  - Ast_94939446.DisplayName
+  - Ast_94939446.Text
+  - Ast_F3F09133.DisplayName
+  - Ast_F3F09133.Text
+  - Ast_D0F78FD9.DisplayName
+  - Ast_D0F78FD9.Text
+  - Ast_0461B4FA.DisplayName
+  - Ast_0461B4FA.Text
+  - Ast_21E77DC0.DisplayName
+  - Ast_21E77DC0.Text
+  - Ast_D3431916.DisplayName
+  - Ast_D3431916.Text
+  - Ast_42E130C8.DisplayName
+  - Ast_42E130C8.Text
+  - Ast_455414A9.DisplayName
+  - Ast_455414A9.Text
+  - Ast_7B014B68.DisplayName
+  - Ast_7B014B68.Text
+  - Ast_D1C8F636.DisplayName
+  - Ast_D1C8F636.Text
+  - Ast_6E8B83E7.DisplayName
+  - Ast_6E8B83E7.Text
+  - Ast_859EBE2B.DisplayName
+  - Ast_859EBE2B.Text
+  - Ast_319EFDEB.DisplayName
+  - Ast_319EFDEB.Text
+  - Ast_83FE1F39.DisplayName
+  - Ast_83FE1F39.Text
+  - Ast_7CC5D421.DisplayName
+  - Ast_7CC5D421.Text
+  - Ast_5D2FCB62.DisplayName
+  - Ast_5D2FCB62.Text
+  - Ast_1E500064.DisplayName
+  - Ast_1E500064.Text
+  - Ast_31B42A4C.DisplayName
+  - Ast_31B42A4C.Text
+  - Ast_F5D1E11C.DisplayName
+  - Ast_F5D1E11C.Text
+  - Ast_D3BF53C9.DisplayName
+  - Ast_D3BF53C9.Text
+  - Ast_1E7D3019.DisplayName
+  - Ast_1E7D3019.Text
+  - Ast_A4EB6D43.DisplayName
+  - Ast_A4EB6D43.Text
+  - Ast_31833C9E.DisplayName
+  - Ast_31833C9E.Text
+  - Ast_D78D6289.DisplayName
+  - Ast_D78D6289.Text
+  - Ast_8389A6D5.DisplayName
+  - Ast_8389A6D5.Text
+  - Ast_80945D28.DisplayName
+  - Ast_80945D28.Text
+  - Ast_8107C27A.DisplayName
+  - Ast_8107C27A.Text
+  - Ast_DAE7FDE3.DisplayName
+  - Ast_DAE7FDE3.Text
+  - Ast_39FCC87C.DisplayName
+  - Ast_39FCC87C.Text
+  - Ast_6C72ED98.DisplayName
+  - Ast_6C72ED98.Text
+  - Ast_52C70E1C.DisplayName
+  - Ast_52C70E1C.Text
+  - Ast_E0C717E0.DisplayName
+  - Ast_E0C717E0.Text
+  - Ast_14FAB283.DisplayName
+  - Ast_14FAB283.Text
+  - Ast_325A8304.DisplayName
+  - Ast_325A8304.Text
+  - Ast_125BB65D.DisplayName
+  - Ast_125BB65D.Text
+  - Ast_FA3DB0ED.DisplayName
+  - Ast_FA3DB0ED.Text
+  - Ast_DEE81CEA.DisplayName
+  - Ast_DEE81CEA.Text
+  - Ast_50CF908D.DisplayName
+  - Ast_50CF908D.Text
+  - Ufo_Images.DisplayName
+  - Ufo_Characters.DisplayName
+  - Ufo_Ui.DisplayName
+  - Ufo_Screens.DisplayName
+  - Ufo_Cell.DisplayName
+  - Ufo_Cellar.DisplayName
+  - Ufo_Corridor.DisplayName
+  - Ufo_Lobby.DisplayName
+  - Ufo_Exterior.DisplayName
+  - Ufo_Dialog.DisplayName
+  - Ufo_Items.DisplayName
+  - Ufo_DemoAssets.DisplayName
+  - Ufo_Videos.DisplayName
+  - Ufo_Audio.DisplayName
+  - Ufo_Documents.DisplayName
+  - Ufo_Entities_Items.DisplayName
+  - Ufo_Entities_Characters.DisplayName
+  - LLf_758658F6.DisplayName
+  - LLf_617B32F9.DisplayName
+  - LLf_7908794F.DisplayName
+  - LLf_4DB9F20A.DisplayName
+  - LLf_93041453.DisplayName
+  - LLf_EAC16940.DisplayName
+  - LLf_0E6B6A16.DisplayName
+  mLocaValues:
+  - Zelle
+  - "Manfred wacht in einer gepolsterten Zelle auf, ohne Erinnerung, wie er dort hingekommen
+    ist. Ebenfalls in der Zelle ist Dr. Artie Cee, der davon \xFCberzeugt ist, da\xDF
+    Manfred verr\xFCckt ist und professionelle Hilfe braucht. Aber wird Manfred kooperieren?"
+  - Korridor
+  - "Manfred schaftte es aus seiner Zelle zu entkommen, aber er befindet sich immer
+    noch in der Irrenanstalt.  Er muss sich entscheiden ob er den direkten Weg zur
+    Lobby einschl\xE4gt oder sein Gl\xFCck im Keller versucht."
+  - Keller
+  - "Das einzige Lebewesen im Keller ist ein Hamster. Der Weg zur\xFCck ist verschlossen,
+    daher muss Manfred nun einen \"kreativen\" Weg aus dieser Klappsm\xFChle heraus
+    finden."
+  - The End
+  - Irgendwie ist Manfred endlich aus dem Sanatorium entkommen. Jetzt wird abgerechnet!
+  - Lobby
+  - "Je nachdem  welchen Weg Manfred in der Zelle gew\xE4hlt hat, mu\xDF er nun an
+    der Wache oder an Dr. Artie Cee (schon wieder) vorbeikommen. "
+  - Aufwachen
+  - "Manfred wacht in einer gepolsterten Zelle auf, ohne Erinnerung, wie er dort hingekommen
+    ist. Ebenfalls in der Zelle ist Dr. Artie Cee, der davon \xFCberzeugt ist, da\xDF
+    Manfred verr\xFCckt ist und professionelle Hilfe braucht. Aber wird Manfred kooperieren?"
+  - Der Therapeut
+  - Rede mit dem Therapeuten.
+  - "Geschlossene T\xFCr"
+  - "Versuche die T\xFCr zu \xF6ffnen."
+  - Regenschirm
+  - "Schau Dir den Regenschirm n\xE4her an."
+  - Hilf mir!
+  - "Eine mysteri\xF6se Stimme ruft nach Manfreds Hilfe. Wird Manfred dem Schrei nach
+    Hilfe folgen?"
+  - Umgebungskommentare
+  - Alle Spieler Komentare zu Objekten in der Umgebung
+  - Gefangen
+  - "Die T\xFCr f\xE4llt hinter dir zu."
+  - Der Hamster
+  - 
+  - Obere Schublade
+  - 
+  - "\xDCberlauf"
+  - 
+  - Umgebungskommentare
+  - 
+  - "Kontruktionsplan f\xFCr eine Bombe"
+  - 
+  - "Schlie\xDFfach"
+  - 
+  - Beurteilung
+  - "Das endg\xFCltige Urteil basiert auf den Entscheidungen des Spielers."
+  - Manfred vs Dr. Artie Cee
+  - "F\xFCr Deinen Weg in die Freiheit mu\xDFt Du an dem Doktor vorbeikommen!"
+  - Manfred vs Wache
+  - "F\xFCr Deinen Weg in die Freiheit mu\xDFt Du an der Wache vorbeikommen!"
+  - "Interaktionen mit Gegenst\xE4nden"
+  - 
+  - Umgebungskommentare
+  - 
+  - "Interaktionen mit Gegenst\xE4nden"
+  - "Generelle Komentare zu Interaktionen mit Gegenst\xE4nden."
+  - 
+  - 
+  - "Ah, Sie erholen sich von der An\xE4sthesie. Wie f\xFChlen Sie sich?"
+  - 
+  - verwirrt
+  - Ich bin mir nicht sicher ... Ein bisschen schwindlig ... Meine ich das nur oder
+    ist die Perspektive dieses Raumes irgendwie falsch?
+  - 
+  - 
+  - "Das sind nur die \xFCblichen Nebenwirkungen des Bet\xE4ubungsmittels."
+  - 
+  - 
+  - Wo bin ich?
+  - 
+  - 
+  - "Interessant. Es scheint, Sie haben Ihr Ged\xE4chtnis verloren. Nun, nichts wor\xFCber
+    Sie sich Gedanken machen sollten."
+  - 
+  - 
+  - "Sie befinden sich in dem \"Lucas Artsington Sanatorium f\xFCr geistig Verwirrte\"."
+  - "Ich bin in einer Klappsm\xFChle?"
+  - 
+  - "Whoa, warte mal, ich bin in einer Klappsm\xFChle?"
+  - 
+  - 
+  - "Nun, ich w\xFCrde einen anderen Begriff verwenden, aber im Grunde, ja. Sie gaben
+    an, dass Sie vor etwas fliehen, das Sie \"unkontrollierbare Interaktivit\xE4t\"
+    nannten."
+  - 
+  - 
+  - "Aber Sie sind bei mir in den besten H\xE4nden, vertrauen Sie mir. Mit meiner
+    patentierten Gedankenorganisationstherapie haben wir schnell alles unter Kontrolle."
+  - 
+  - 
+  - "Okay, Sie denken, ich bin verr\xFCckt ... Aber Sie irren sich, Doktor! Ich bin
+    absolut in Ordnung."
+  - 
+  - 
+  - "Also, w\xE4ren Sie so freundlich, mir den Weg hier heraus zu zeigen?"
+  - 
+  - 
+  - "Bei allem Respekt, aber ich entscheide wer ein verr\xFCckter Irrer ist und wer
+    nicht. Und Ihr Fall erfordert definitiv weitere Untersuchungen, bevor wir eine
+    Diagnose stellen k\xF6nnen."
+  - 
+  - 
+  - "Mein lieber Freund, Sie erholen sich von der An\xE4sthesie. Wie f\xFChlen Sie
+    sich?"
+  - Was ist passiert?
+  - 
+  - "An\xE4sthesie? Was um alles in der Welt ist geschehen?"
+  - Mir ist schwindlig.
+  - 
+  - Ich bin mir nicht sicher ... Ein bisschen schwindlig ... Meine ich das nur oder
+    ist die Perspektive dieses Raumes irgendwie falsch?
+  - 
+  - 
+  - "Interessant. Es scheint, Sie haben Ihr Ged\xE4chtnis verloren. Nun, nichts wor\xFCber
+    Sie sich Gedanken machen sollten."
+  - 
+  - 
+  - "Das sind nur die \xFCblichen Nebenwirkungen des Bet\xE4ubungsmittels."
+  - 
+  - 
+  - "Sie befinden sich in dem \"Lucas Artsington Sanatorium f\xFCr geistig Verwirrte\"."
+  - 
+  - 
+  - Wo bin ich?
+  - "Ich bin in einer Klappsm\xFChle?"
+  - 
+  - "Whoa, warte mal, ich bin in einer Klappsm\xFChle?"
+  - "Ich habe mein Ged\xE4chtnis verloren??"
+  - 
+  - "Ich habe mein Ged\xE4chtnis verloren? Das ist auf jeden Fall ein Grund mir dar\xFCber
+    Gedanken zu machen!"
+  - Ich bin absolut geistig gesund!
+  - 
+  - "Okay, Sie denken, ich bin verr\xFCckt ... Aber Sie irren sich, Doktor! Ich bin
+    absolut in Ordnung."
+  - 
+  - 
+  - "Nun, ich w\xFCrde einen anderen Begriff verwenden, aber im Grunde, ja. Sie gaben
+    an, dass Sie vor etwas fliehen, das Sie \"unkontrollierbare Interaktivit\xE4t\"
+    nannten."
+  - 
+  - 
+  - "Nichts was wir nicht wieder in den Griff kriegen sollten. Ein paar weitere Sitzungen
+    Gespr\xE4chstherapie, Hypnose, und vielleicht ein wenig Gehirnchirugie... und
+    ihre schrecklichen Erinnerungen sollten alle wieder da sein."
+  - 
+  - 
+  - "Sie haben versucht, das Biest der Nichtlinearit\xE4t\" mit Post-it-Notizen an
+    der Wand zu z\xE4hmen. Zuerst schien es zu funktionieren, aber dann ... eine Ihrer
+    Notizen fiel auf den Boden und Sie hatten einen kompletten Zusammenbruch."
+  - 
+  - 
+  - "Also, w\xE4ren Sie so freundlich, mir den Weg hier heraus zu zeigen?"
+  - 
+  - 
+  - "Bei allem Respekt, aber ich entscheide wer ein verr\xFCckter Irrer ist und wer
+    nicht. Und Ihr Fall erfordert definitiv weitere Untersuchungen, bevor wir eine
+    Diagnose stellen k\xF6nnen."
+  - "Ich bin sofort zur\xFCck."
+  - 
+  - "Warten Sie einen Moment, ich bin sofort wieder zur\xFCck um Ihnen zu beweisen,
+    das ich NICHT verr\xFCckt bin!"
+  - 
+  - 
+  - "Ok, ich habe den Schl\xFCssel. Lass uns von hier verschwinden!"
+  - "Lassen Sie mich Sie \xFCberzeugen!"
+  - 
+  - "Denken Sie dar\xFCber nach. Man ist verr\xFCckt, wenn man verr\xFCckte Dinge
+    macht, oder?"
+  - 
+  - 
+  - "Ah, mein Lieblings Irrer. M\xF6chten Sie die Therapie fortsetzen?"
+  - 
+  - 
+  - "Ich f\xFChle mich irgendwie schlecht ... aber er war wirklich nervig, oder?"
+  - 
+  - 
+  - "Aber Sie sind bei mir in den besten H\xE4nden, vertrauen Sie mir. Mit meiner
+    patentierten Gedankenorganisationstherapie haben wir schnell alles unter Kontrolle."
+  - 
+  - 
+  - "Um verr\xFCckte Dinge zu tun, muss man wirklich verr\xFCckt sein, oder? Und um
+    festzustellen, dass jemand verr\xFCckt ist, m\xFCssen Sie tats\xE4chlich sehen,
+    wie er verr\xFCckte Dinge macht, nicht wahr?"
+  - 
+  - 
+  - "Und selbst wenn jemand etwas verr\xFCcktes tut, aber niemand da ist, um es zu
+    sehen, muss man davon ausgehen, dass es nie passiert ist, oder?"
+  - 
+  - 
+  - "Selbst ein so hochspezialisierter Wissenschaftler wie Sie mu\xDF zugeben, dass,
+    wenn ich jetzt nichts verr\xFCcktes tue, ich danach auch nicht verr\xFCckt bin,
+    nicht wahr? Und dann m\xFCssten Sie mich gehen lassen, oder?"
+  - 
+  - 
+  - "\xC4h ja\u2026"
+  - 
+  - 
+  - Also musst Du mich jetzt gehen lassen, oder?
+  - 
+  - 
+  - "H\xF6ren Sie auf immer \"richtig\" zu sagen!"
+  - Nein
+  - 
+  - Nein.
+  - 
+  - 
+  - "Ok ... Ich verlasse Sie jetzt. Die T\xFCr ist offen... es liegt an Ihnen, ob
+    Sie bleiben und sich helfen lassen wollen oder ob Sie Ihr Gl\xFCck dort drau\xDFen
+    versuchen wollen."
+  - 
+  - 
+  - Nun ... das war einfach.
+  - 
+  - 
+  - "In diesem Fall ... nein! Es w\xE4re unverantwortlich, wenn Sie in Ihrem augenblicklichem
+    Geisteszustand in Kontakt mit der Gesellschaft kommen w\xFCrden."
+  - 
+  - 
+  - "[Dreht sich um] Zumindest haben Sie Ihren Sinn f\xFCr Humor nicht verloren."
+  - 
+  - 
+  - "Falls Sie mit der Therapie fortfahren m\xF6chten ... einfach an die T\xFCr klopfen
+    wie ein Wahnsinniger. [Verl\xE4sst die Zelle]"
+  - 
+  - 
+  - "Ah, ich habe einen Schl\xFCssel gefunden! Aber ich werde nicht sagen, wo ich
+    ihn gefunden habe... Glauben Sie mir, das wollen Sie nicht wissen."
+  - Durchsuche Therapeuten*
+  - 
+  - "Zeit um zu pl\xFCndern!"
+  - 
+  - 
+  - Ich habe ihn schon genug durchsucht.
+  - 
+  - 
+  - "Hoppla ... Da bin ich wohl ausgerutscht und habe die Brechstange verloren. Gut
+    das der freundliche Arzt sie auffing\u2026"
+  - 
+  - 
+  - "Nein nein nein. Ich m\xF6chte seinen Schlaf nicht st\xF6ren."
+  - 
+  - 
+  - "... mit seinem Kopf. Was f\xFCr ein Gl\xFCck."
+  - "Die T\xFCr ist verschlossen."
+  - 
+  - "Die T\xFCr ist verschlossen."
+  - "Mal schauen... [untersuche T\xFCr]"
+  - 
+  - "Ich glaube, ich brauche einen Zaubertrank um mich zu verkleinern und durch das
+    Schl\xFCsselloch zu entkommen ... oder ich schaffe es, den Schl\xFCssel zu bekommen,
+    aber das klingt ziemlich l\xE4cherlich."
+  - 
+  - 
+  - "Nat\xFCrlich k\xF6nnte ich mir meinen Weg heraus nur mit einem Regenschirm bewaffnet
+    frei k\xE4mpfen ... Aber ich will einfach nicht."
+  - 
+  - 
+  - Interessant. Es scheint, dass der vorherige Mieter dieser Zelle den Regenschirm
+    mit einer Brechstange ersetzt hat ... Ich nehme die lieber, bevor noch jemand
+    verletzt wird.
+  - 
+  - 
+  - Hey Du! Ja, ich rede mit DIR!
+  - 
+  - 
+  - "Wo bist du? Warte ... du bist nicht in meinem Kopf, nicht wahr? Ansonsten m\xFCsste
+    ich meine Entscheidung \xFCberdenken, diesen Ort zu verlassen \u2026"
+  - 
+  - 
+  - Nein, ich bin real! Ich bin unten im Keller.
+  - 
+  - 
+  - "Leider bin ich hier unten gefangen... Bitte, hilf mir raus! Ich verdurste und
+    niemand scheint es zu k\xFCmmern!"
+  - "K\xF6nnte eine Falle sein..."
+  - 
+  - "Ich wei\xDF nicht... K\xF6nnte eine Falle sein..."
+  - Ich befreie Dich!
+  - 
+  - "Ich hole dich raus, mein Gef\xE4hrte! Gemeinsam werden wir diesem Alptraum entfliehen!"
+  - 
+  - 
+  - Ausgerechnet heute hab ich keine Sandalen an.
+  - 
+  - 
+  - Ich hoffe wirklich, dass sie dort unten nur Radiumtherapien machen..
+  - 
+  - 
+  - "Dies scheint der k\xFCrzeste Weg hier raus zu sein. Aber was ist wenn die Haust\xFCr
+    \xFCberwacht wird?"
+  - 
+  - 
+  - "Jemand dort unten scheint meine Hilfe zu ben\xF6tigen... aber was, wenn es eine
+    Falle ist?"
+  - 
+  - 
+  - "Dr. Mansion verkauft sein Haus f\xFCr einen verr\xFCckten Preis! Ruf an\u2026"
+  - 
+  - 
+  - 'Eine Ode an meinen besten Freund:
+
+
+    Ich mag Dich wirklich sehr
+
+    und das ist auch nicht schwer
+
+    denn Du hast eben flair
+
+    und magst kein hin und her
+
+    Manchmal denk ich "Mist"
+
+    das Du nur ein Hamster bist.'
+  - 
+  - 
+  - "Nevigo\u2026  Das ist die Firma, die die Pinnwand gemacht hat. Ich sollte mir
+    das notieren, vielleicht brauche ich zuk\xFCnftig auch so eine klasse Pinwand."
+  - 
+  - 
+  - "Sieht so aus als m\xFC\xDFte ich einen anderen Ausweg finden."
+  - 
+  - 
+  - "*schaut sich um* Keiner da au\xDFer diesem niedlichen kleinem Hamster. K\xF6nnte
+    es sein, dass .."
+  - 
+  - 
+  - "*starrt dich omin\xF6s an*"
+  - 
+  - 
+  - "*Du bist gerade dabei die Sprengung vorzubereiten, da f\xE4llt Dir auf, dass
+    die Explosion wahrscheinlich den Hamster t\xF6ten wird...*"
+  - '*dreh dich zum Hamster*'
+  - 
+  - "Ok, mein kleiner Pelzfreund \u2026"
+  - Ich vertraue ihm nicht.
+  - 
+  - "Ich wei\xDF nicht ... Ich vertraue diesem Kerl einfach nicht. Er sieht aus als
+    wenn er etwas wirklich B\xF6ses plant!"
+  - "*stare zur\xFCck*"
+  - 
+  - "*starrt zur\xFCck*"
+  - Es ist Dein Fehler!
+  - 
+  - Ok, Mr. Hamster! Spuck's aus! Hast du mich in diese Falle gelockt?!
+  - 
+  - 
+  - '*starrt dich weiter an*'
+  - 
+  - 
+  - '*starrt weiter, aber Du meinst er hat Dir gerade zu gezwinkert*'
+  - 
+  - 
+  - "*schaut panisch und nach ein paar Sekunden z\xF6gern l\xE4sst er den Brief\xF6ffner
+    fallen*"
+  - 
+  - 
+  - '*der Hamster scheint zuzustimmen*'
+  - 
+  - 
+  - "*sieht dankbar aus und gibt dir den Brief\xF6ffner*"
+  - 
+  - 
+  - "*Du versuchst den K\xE4fig zu erreichen, aber er ist zu hoch.* Mach dir keine
+    Sorgen, ich hole dich da raus ... irgendwie ..."
+  - 
+  - 
+  - "*Irgendwie schaffst Du es, den K\xE4fig mit dem Besen zu \xF6ffnen*"
+  - 
+  - 
+  - "Ok, Bursche. Ich stecke Dich in meine Tasche ... aber keine N\xFCsse anknabbern
+    da unten!"
+  - 
+  - 
+  - "Was hast Du da? Ist das einer dieser Designer-Brief\xF6ffner, von denen ich so
+    viel geh\xF6rt habe?"
+  - 
+  - 
+  - "*Du versuchst den Brief\xF6ffner zu greifen, aber der K\xE4fig ist zu hoch und
+    der Hamster scheint ihn sehr fest zu halten.* "
+  - 
+  - 
+  - Danke Dir...
+  - 
+  - 
+  - "Der K\xE4gif ist zu hoch. Ich kann ihn von hier aus nicht \xF6ffnen."
+  - 
+  - 
+  - Ich habe was ich brauche.
+  - 
+  - 
+  - '*schaut dankbar*'
+  - 
+  - 
+  - "Eine Kettens\xE4ge, Benzin f\xFCr Kettens\xE4gen... uuuund ... Aluminiumfolie!"
+  - 
+  - 
+  - "Ich habe keine Kettens\xE4gen-Lizenz, deshalb muss die Aluminiumfolie reichen."
+  - 
+  - 
+  - Nichts.
+  - 
+  - 
+  - "Dieses St\xFCck Metall sieht seltsam aus ... hier ist eine Aufschrift: \"Vorsicht!
+    - Waffen-Plutonium!\""
+  - 
+  - 
+  - "Ich denke, mein Strahlungsniveau ist schon hoch genug \u2026"
+  - 
+  - 
+  - Dort ist etwas metallisches ... aber ich kann es nicht durch das Gitter erreichen.
+  - 
+  - 
+  - "Nicht der beste Schraubendreher, aber es hat geklappt. Ich kann den gl\xFChenden
+    Zylinder erreichen."
+  - 
+  - 
+  - Das Fenster sieht sehr robust aus. Aber ich wette, es wird einer starken Explosion
+    nicht standhalten.
+  - 
+  - 
+  - Nichts.
+  - 
+  - 
+  - Da ist etwas drin... mal sehen... komm... raus!
+  - 
+  - 
+  - "Ich zog fast f\xFCnf Meter Kabel aus der Wand ... davon kann man nie genug haben!"
+  - 
+  - 
+  - "Vielleicht kann ich es benutzen um sinnlos Dinge zu zerst\xF6ren!"
+  - 
+  - 
+  - Dieser Kalender scheint der Dienstplan zu sein.
+  - 
+  - 
+  - "Einige Daten sind besonders markiert, vor allem am 25. Mai... Da  hei\xDFt es
+    \"Nicht vergessen: Handtuch-Tag!\" in gro\xDFen roten Buchstaben."
+  - 
+  - 
+  - "Scheint ein wirklich wichtiges Datum f\xFCr die Person zu sein, die hier arbeitet."
+  - 
+  - 
+  - Eine komplette Miniaturversion unseres Universums.
+  - 
+  - gelangweilt
+  - Ich habe bessere gesehen. Dieses ist noch aus der Steinzeit.
+  - 
+  - 
+  - "Vielleicht k\xF6nnte ich durch die L\xFCftungsleitung entkommen!"
+  - 
+  - 
+  - Nun, vielleicht nach mehreren Wochen Fasten...
+  - 
+  - 
+  - "HALLO! KANN MICH JEMAND H\xD6REN? ICH BIN HIER UNTEN GEFANGEN!"
+  - 
+  - 
+  - "Ich wette, die einzige Person, die mich h\xF6ren k\xF6nnte ist der Arzt... Und
+    den hab ich leider ausgeknockt..."
+  - 
+  - 
+  - Yay, ein Rorschach Test!
+  - 
+  - 
+  - "Ich sehe einen wundersch\xF6nen Schmetterling!"
+  - 
+  - 
+  - Und eine Pilzwolke...
+  - 
+  - 
+  - 'Ein Buch aus meinem Lieblingsfach Deutsch: "Wie ich lernte die Bombe zu lieben"
+    von Albert Einstein.'
+  - 
+  - 
+  - "Hier ist eine komplette Bauanleitung f\xFCr Miniatur-Atombomben..."
+  - 
+  - 
+  - "Zweitens: Verwenden Sie Kabel, um das Ganze zu verdrahten und den Bombenz\xFCnder
+    zu erstellen."
+  - 
+  - 
+  - "Drittens: Erstellen Sie die Verkleidung - Sie k\xF6nnen dabei sparen wenn Sie
+    daf\xFCr Standard Aluminiumfolie verwenden."
+  - 
+  - 
+  - "Hey, ein Bomben-Baukasten f\xFCr Kinder!"
+  - 
+  - 
+  - Es ist mit einem Zahlenschloss gesichert... ...
+  - "*versuche das Schloss zu \xF6ffnen*"
+  - 
+  - Ok, das Schloss hat vier Zahlen. Beginnen wir mit dem ersten...
+  - '*Verlasse den Spind*'
+  - 
+  - "Ich habe keine Ahnung, wie die Kombination lauten k\xF6nnte und ich hab einfach
+    kein Gl\xFCck im Spiel."
+  - 2
+  - 
+  - 2
+  - 3
+  - 
+  - 3
+  - 4
+  - 
+  - 4
+  - 5
+  - 
+  - 5
+  - 6
+  - 
+  - 6
+  - 7
+  - 
+  - 7
+  - 8
+  - 
+  - 8
+  - 9
+  - 
+  - 9
+  - 0
+  - 
+  - 0
+  - 1
+  - 
+  - 1
+  - "*versuche das Schloss zu \xF6ffnen*"
+  - 
+  - Woohoo! Es ist offen!
+  - "*versuche das Schloss zu \xF6ffnen*"
+  - 
+  - Tut sich nichts, die Kombination scheint falsch zu sein.
+  - 
+  - 
+  - Sie sind ein feiner Kerl! Das hat Ihnen im Spiel geholfen, aber erwarten Sie nicht,
+    dass es Ihnen in der realen Welt hilft!
+  - 
+  - 
+  - "Was bringt einen dazu neutral zu werden? Die Gier nach Macht? Gold? Oder wurdest
+    du schon mit einem Herzen voller Neutralit\xE4t geboren?"
+  - 
+  - 
+  - "Du bist wirklich b\xF6se, noch b\xF6ser als Menschen, die unschuldige Tiere mit
+    Mikrowellenstrahlung sch\xE4digen! Sch\xE4m dich!"
+  - 
+  - 
+  - Was machst du noch hier?
+  - 
+  - 
+  - "Hallo du! Hast du meine Schl\xFCssel gesehen? Ich scheine sie verloren zu haben..."
+  - 
+  - 
+  - Das ist der Weg raus, oder?
+  - Legen Sie sich hin!
+  - 
+  - "Nein, ich habe keine Schl\xFCssel gesehen. Ich schw\xF6re!"
+  - 
+  - 
+  - "Ok, ich werde mich jetzt umdrehen. Aber das ist das letzte Mal! Es w\xE4re besser
+    wenn da diesmal wirklich eine echte dreik\xF6pfige Giraffe ist!"
+  - "Mach es l\xE4ssig..."
+  - 
+  - Nee, sorry dude...
+  - 
+  - 
+  - "Schau da hinter Dir! Eine dreik\xF6pfige Giraffe!"
+  - 
+  - 
+  - Warte mal! Sollten Sie nicht in einer Zelle eingesperrt sein?
+  - 
+  - 
+  - Glauben Sie wirklich, ich bin so dumm?
+  - 
+  - 
+  - Nicht wirklich! Schauen Sie!
+  - Nur Besucher!
+  - 
+  - Ich? Nein, ich bin nur zu Besuch.
+  - "Versuche eine L\xFCge!"
+  - 
+  - "Nein, ich bin frei. Dr. Mansions Diagnose sagt - und dies ist ein Zitat - ich
+    bin kein Verr\xFCckter!"
+  - 
+  - 
+  - Ich glaube dir nicht wirklich. Ich glaube, ich werde unsere Wache rufen.
+  - 
+  - 
+  - Dr. Mansion arbeitet hier nicht mehr, junger Mann. Also...
+  - 
+  - 
+  - "Nun, die Besuchszeiten sind lange vorbei. Also\u2026"
+  - "Mach Dir keine Sorgen, sei gl\xFCcklich!"
+  - 
+  - "Ich? Behandlung? Nein! Mir geht es gut, geradezu supergut. Ich l\xE4chle, nicht
+    wahr?"
+  - Brecheisen! Brecheisen!
+  - 
+  - Behandlung? Ich? In so einer zweiten Klasse Einrichtung wie diese hier? Niemals!
+    Ich gehe und zwar jetzt!
+  - 
+  - 
+  - "Oh nicht schon wieder dieses Wort! K\xF6nnen Sie nicht aufh\xF6ren, es zu sagen?
+    Sie k\xF6nnten eine Zwangsneurose haben. Ich glaube, Sie brauchen eine Behandlung."
+  - 
+  - 
+  - Zweitklassige Einrichtung? Sie sind definitiv nicht klar! Dies ist das beste Krankenhaus
+    der Stadt!
+  - 
+  - 
+  - Ha! Niemals! Dies ist der schlechteste Ort den ich je gesehen habe. Wer hat die
+    Dekoration gemacht? Ein Spieldesigner?
+  - 
+  - 
+  - Das ist ein Skandal! Ich werde die Wache rufen!
+  - 
+  - 
+  - "Hallo Doc! Sie sehen hungrig aus. Kann ich Sie f\xFCr eine leckere Banane interessieren?"
+  - 
+  - 
+  - "Oh danke, wussten Sie, dass der Grund, warum Bananen gebogen sind, damit zu tun
+    hat, wie sie wachsen? Bananen wachsen in Trauben, die als \"H\xE4nde\" bekannt
+    sind. W\xE4hrend die Bananen in einer Hand gr\xF6\xDFer werden, wachsen sie schlie\xDFlich
+    nach oben gekr\xFCmmt, so dass sie, anstatt auf den Boden zu zeigen, sich verbiegen
+    und in den Himmel zeigen. Dies wird als \"negativer Geotropismus\" bezeichnet.
+    Bananen machen das, damit sie die Sonne erreichen und mehr Licht bekommen! Erstaunlich,
+    nicht wahr?"
+  - 
+  - 
+  - "Uhm, ja wirklich Doc. Faszinierende Geschichte. Aber sie schmecken auch sehr
+    gut. Also genie\xDFen Sie Ihre Mahlzeit!"
+  - 
+  - 
+  - "Ah ja, danke junger Mann. [Er isst die Banane mit drei gro\xDFen Bissen.]"
+  - 
+  - 
+  - "Interessanter Geschmack. Aber ich f\xFChle mich jetzt sehr m\xFCde. Wussten Sie,
+    dass der Grund daf\xFCr ... [setzt sich und schl\xE4ft ein]"
+  - 
+  - 
+  - "... ist, dass die Banane  voll von Schlaftabletten ist. Ja Doc. Das wusste ich
+    tats\xE4chlich. Schlafen Sie gut. Ich gehe jetzt!"
+  - 
+  - 
+  - "Oh, ich bin nur zu Besuch hier. Wissen Sie ... mein altes Kinderm\xE4dchen. Sie
+    ist, na ja ... 'Spoing' - hat mehr als nur eine Schraube locker - eigentlich sehr
+    traurig. Sie hat zu viele schlechte Videospiele gespielt, f\xFCrchte ich."
+  - 
+  - 
+  - Hey, wer sind Sie?
+  - 
+  - 
+  - "Danke f\xFCr die Banane. Die schmeckt wirklich gut. Nur f\xFChle ich mich jetzt
+    ein wenig schl\xE4fr..."
+  - 
+  - 
+  - Ich habe Sie nicht herein kommen gesehen. Ich glaube Sie sagen nicht die Wahrheit.
+  - 
+  - 
+  - "Ich bin nicht Ihr Freund, Sir. Treten Sie zur\xFCck!"
+  - 
+  - 
+  - "(Du h\xF6rst den Magen der Wache knurren.)"
+  - 
+  - 
+  - Klingt als ob mein Freund hier sehr hungrig ist. Ich sollte ihm etwas zu essen
+    geben. Etwas, das ihn in das Schlummerland bringt. Aber die Brechstange tut's
+    auch.
+  - 
+  - 
+  - "Ich wei\xDF nicht. Mama sagt immer, dass man von Fremden keine Dinge nehmen soll.
+    Aber ich habe wirklich Hunger."
+  - Stell Dich vor...
+  - 
+  - "Nun, das l\xE4sst sich leicht l\xF6sen. Ich bin Manfred. Ich bin \xE4lter als
+    ich aussehe und ich mag K\xE4tzchen. Als freundliche Geste schenke ich Ihnen diese
+    k\xF6stliche Banane. Genie\xDFen Sie Ihre Mahlzeit - Kumpel!"
+  - Diskutiere mit ihm.
+  - 
+  - Oh, ich bin nicht wirklich ein Fremder, ich bin Manfred. Und ich denke ein Mann
+    in Ihrer Position kann es nicht riskieren, schwach zu sein. Lassen Sie mich Ihnen
+    diese Banane schenken damit Sie stark und wachsam bleiben!
+  - 
+  - 
+  - Ok, ich glaube, Sie haben Recht. Ich nehme Ihr Geschenk an.
+  - 
+  - 
+  - "Oh, da ist wohl jemand ein wenig m\xFCrrisch. Velleicht weil einer Ihrer Schn\xFCrsenkel
+    auf ist?"
+  - 
+  - 
+  - "Was? Mein Schn\xFCrsenkel ist auf? Warum haben Sie mir das nicht gleich gesagt?"
+  - 
+  - 
+  - "Weil ich es auch gerade erst bemerkt habe\u2026"
+  - 
+  - 
+  - "Dies ist ein hohes Sicherheitsrisiko! Es k\xF6nnte mich umbringen! Echo_01 an
+    Basis. Ich habe einen 404 hier. Ich werde sofort Gegenma\xDFnahmen einleiten.
+    Bleibe wachsam!"
+  - 
+  - 
+  - "Ja, beuge dich sch\xF6n herunter. Perfekte Kopfposition. Sag hallo zu meinem
+    guten alten Kumpel - die Brechstange!"
+  - 
+  - 
+  - Das macht noch keinen Sinn...
+  - 
+  - 
+  - Ihm geht es gut. Nur ein wenig Kopfschmerzen, wenn er aufwacht. Zeit zu gehen.
+    Lauf Manfred, lauf!
+  - 
+  - 
+  - "Gro\xDFartig, Schlaftabletten!"
+  - 
+  - 
+  - "Wow, eine Banane. Heute mu\xDF mein Gl\xFCckstag sein."
+  - 
+  - 
+  - 'Das ist eine Art Werbung. Hier steht:'
+  - 
+  - 
+  - "Nun... primitive Gem\xE4lde. Vielleicht haben Kinder sie gemalt oder Katzen?
+    Schwer zu sagen. Wie auch immer, sie machen keinen Sinn."
+  - 
+  - 
+  - "Da klebt ein \"Biologische Gef\xE4hrdung\" Aufkleber drauf. Warum? Ich wei\xDF
+    es nicht. Ich denke aus guten Gr\xFCnden und das reicht mir. Ich werde es nicht
+    anfassen."
+  - 
+  - 
+  - "Nur Flugbl\xE4tter. Die lass ich mal (f)liegen\u2026"
+  - 
+  - 
+  - "Wir wollen Sie!\n\nSind Sie ein guter Zuh\xF6rer?\nSehen Sie in wei\xDF gut aus?\nHaben
+    Sie einen eigenen Stift?\n\nDann haben Sie alles was man braucht um ein Therapeut
+    zu sein! Bewerben Sie sich jetzt! "
+  - 
+  - 
+  - Hey, ich erinnere mich an diese Phrase. Meine Freundin hat sie immer benutzt,
+    wenn ich sie bat, meinen Affen zu streicheln. Ich fand ihn auf einer Insel. Den
+    Affen, nicht die Freundin. Sie ist aus... aus...
+  - 
+  - 
+  - "Nun, lassen Sie uns nur sagen, dies ist eine Geschichte f\xFCr ein anderes Mal!"
+  - 
+  - 
+  - "Ich kann das nicht \xF6ffnen."
+  - 
+  - 
+  - "Nein, ich will das nicht zerst\xF6ren."
+  - 
+  - 
+  - "Das hat keinen Stecker und ich glaube nicht, dass es besser werden w\xFCrde mit
+    Strom."
+  - 
+  - 
+  - "Nein, das macht \xFCberhaupt keinen Sinn!"
+  - 
+  - 
+  - Ich will das nicht reinigen!
+  - 
+  - 
+  - "[Du schl\xE4gst den Arzt mit einem einzigen, gut gezielten Treffer nieder.]"
+  - "Lenke den Doktor ab und stiel seinen Schl\xFCssel."
+  - 
+  - "Schauen Sie! Direkt hinter Ihnen ist eine dreik\xF6pfige Giraffe!"
+  - Ja
+  - 
+  - Ja.
+  - 
+  - 
+  - Ha, es hat geklappt! Ich hatte auf ein wenig mehr Unkonventionelles gehofft...
+    aber ich werde mich nicht beklagen.
+  - 
+  - 
+  - "Verdammt! Die T\xFCr ist zugefallen\u2026"
+  - '*achselzucken* Das interessiert mich nicht...'
+  - 
+  - '*Du ignorierst den flehenden Blick des Hamsters und startest den Countdown.*'
+  - '*drohen*'
+  - 
+  - "Denken Sie, dass Sie clever sind, was? Ich warne Sie ... Ich wei\xDF, wie man
+    eine Mikrowelle verwendet!"
+  - '*zusammenarbeiten*'
+  - 
+  - "Du hast recht, wir m\xFCssen zusammenarbeiten, um hier wegzukommen."
+  - 
+  - 
+  - Frieden!
+  - 
+  - 
+  - "Erstens: Anreicherung des Plutoniums. Ein spezieller Atombombenbausatz w\xE4re
+    an dieser Stelle ganz praktisch."
+  - Benutze die Brechstange!
+  - Schlage den Arzt mit der Bechstange nieder.
+  - Das ist sinnlos! Schlaf gut Doc!
+  - 
+  - 
+  - Nun... das war einfach. Ich glaube, ich bin doch ganz menschlich.
+  - 
+  - 
+  - " - Ja, gute Idee. L\xF6sen wir dem Doc ein Ticket ins Schlummerland. -"
+  - 
+  - 
+  - Ihm geht es gut. Nur ein wenig Kopfschmerzen, wenn er aufwacht. Zeit zu gehen.
+    Lauf Manfred, lauf!
+  - Brechstange! Brechstange!
+  - 
+  - Hallo mein Freund!
+  - 
+  - 
+  - "Hallo mein Freund. Das h\xF6rt sich an als ob Sie was zum bei\xDFen br\xE4uchten!"
+  - 
+  - 
+  - "Bitte sch\xF6n!"
+  - Fragen
+  - 
+  - Entscheiden Sie wie es weiter geht
+  - 
+  - Entscheiden Sie wie es weiter geht
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - GameState.hamster_saved == true
+  - 
+  - GameState.lock_number == 3
+  - 
+  - GameState.lock_number == 1
+  - 
+  - GameState.lock_number < 4
+  - 
+  - GameState.lock_correctNumbers >= 4
+  - 
+  - GameState.lock_number == 2 || GameSt ...
+  - 
+  - "Moral +10 or higher\n\nWow, you have a super-duper good character! Everyone who
+    knows you wants to be your friend. If you encounter a kitten in a tree you don't
+    hesitate to climb it up and rescue the poor animal. The only reward you seek is
+    the happy smile of the owner. Helping others makes your day. You always end it
+    with milk and cookies. Bon app\xE9tit!\n\n\nMoral +1 - +9\n\nYou are a kindhearted
+    person and a lot of people really love you. You have hundred of friends on anticbook
+    and everybody likes your posts! If you encounter a kitten in a tree you would
+    not do anything stupid like risking your life by climbing up the tree, but you
+    would call the authorities and make sure that the poor animal is rescued.\n\n\nMoral
+    0\n\nWow, you are so neutral if you were a country you would be switzerland and
+    tax fugitives would seek shelter in you. You would not pick a side even if there
+    were only one side to pick. You should consider a career in politics! If you encounter
+    a kitten in a tree you would do nothing but to stop and see what happens.\n\nMoral
+    -1 - -14\n\nYou always search for the eays way out. Moral is for you a handicap
+    of the weak. You will prevail through strength. If you encounter a kitten in a
+    tree you would do nothing. Maybe it saves itself, maybe not. Either way it gets
+    what it deserves and this has nothing to do with you. Only sometimes you wonder
+    why nobody adds you on anticbook. \n\n\nMoral -15 or lower\n\nYou are pure evil
+    and a natural born villain. Not only that you would not save a kitten in a tree,
+    no, you are probably the reason why it fled up the tree in the first place. First
+    time you heard about Santa as a kid you constructed a trap to catch and torture
+    him to also get the other kids presents. Thank god this plan failed like all your
+    other evil masterplans. Evil condemns itself (normally by telling others about
+    their evil masterplans)."
+  - '- Combine Banana && Sleeping Pills
+
+    - Or use crowbar'
+  - '- Banana failed
+
+    - Talking not possible
+
+    - Use crowbar on guard to end level && game'
+  - Use crowbar on guard
+  - Guard should get knock down graphic!
+  - 'NEW condition: guard_knockedOut
+
+
+    guard_knockedOut = true'
+  - Game Design Document
+  - 
+  - 'Dialogue: Waking Up'
+  - 
+  - Overview
+  - '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p
+    id="s0"><span id="s1">Maniac Manfred is a classical 2D point &amp; click adventure.
+    The player slips into the role of Manfred, who awakes in a padded cell of a mental
+    hospital without a clue how he got there. Obviously, his goal is to escape the
+    madhouse as quick as possible. </span></p><p id="s0"><span id="s1">To achieve
+    this goal the player must find and combine items (or small animals) and prove
+    his superior intelligence in epic linguistic battles (abbr. &quot;dialogues&quot;).</span><span
+    id="s1"> In every scene the player can overcome the obstacles in different ways
+    that finally lead to three morally different endings. </span></p></body></html>'
+  - Key Facts
+  - '<html><head><style>#s0 {text-align:left;} #s1 {font-weight:bold;font-size:11pt;}
+    #s2 {font-size:11pt;} #s3 {font-weight:bold;text-decoration:underline;font-size:11pt;}
+    #s4 {color:#FFA61A;font-size:11pt;} </style></head><body><ul><li><p id="s0"><span
+    id="s1">Genre:</span><span id="s2"> Point &amp; Click Adventure</span></p></li><li><p
+    id="s0"><span id="s1">Platform: </span><span id="s2">PC and IPad</span></p></li></ul><p
+    id="s0"><span id="s3">USPs:</span></p><ul><li><p id="s0"><span id="s2">Four different
+    locations! </span></p></li><li><p id="s0"><span id="s2">Three different endings!</span></p></li><li><p
+    id="s0"><span id="s2">A </span><a href="articy://localhost/view/~/72057598332899533/?useRef"><span
+    id="s4">Hamster</span></a><span id="s2"> with telepathic powers!</span></p></li></ul></body></html>'
+  - Game Mechanics
+  - '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p
+    id="s0"><span id="s1">In every scene the player can overcome the current obstacle
+    in different ways. It&#39;s up to the player how ruthless he wants to be in his
+    escape. The choices </span><span id="s1">affect </span><span id="s1">the </span><span
+    id="s1">morality rating and finally lead to three different endings. </span></p><p
+    id="s0"><span id="s1">Besides that the gameplay is very typical for a point &amp;
+    click adventure: The player must find items and use or combine them to proceed.
+    Furthermore Maniac Manfred has a</span><span id="s1"> strong</span><span id="s1">
+    emphasis on dialogue. Sometimes the player can</span><span id="s1"> even</span><span
+    id="s1"> solve</span><span id="s1"> </span><span id="s1">puzzle</span><span id="s1">s</span><span
+    id="s1"> with the right dialogue choices alone. </span></p></body></html>'
+  - GUI
+  - '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} #s2 {color:#FFA61A;font-size:11pt;}
+    </style></head><body><p id="s0"><span id="s1">Maniac Manfred has the following
+    GUI components:</span></p><ul><li><p id="s0"><span id="s1">Morale value - Colored
+    number in the upper left of the screen</span></p></li><li><p id="s0"><span id="s1">Mouse
+    cursor - Different icon depending on over what the user is hovering (see </span><a
+    href="articy://localhost/view/~/72057688527208499/?useRef"><span id="s2">MouseCursorIcons</span></a><span
+    id="s1">)</span></p></li><li><p id="s0"><span id="s1">Inventory - Bar at the bottom
+    of the screen listing all items in the player&#39;s inventory</span></p></li></ul></body></html>'
+  - Morality Rating
+  - '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p
+    id="s0"><span id="s1">As stated above the player&#39;s decisions influence the
+    morality rating. </span></p></body></html>'
+  - Controls
+  - '<html><head><style>#s0 {text-align:left;} #s1 {font-size:11pt;} </style></head><body><p
+    id="s0"><span id="s1">The game can be played via mouse or touch screen. </span><span
+    id="s1">In both cases the player can (left-)click on objects to interact with
+    them. To use or combine items he must drag &amp; drop them from the inventory
+    to the desired target (another item in the inventory or an object in the scene).
+    </span></p></body></html>'
+  - Story
+  - '<html><head><style>#s0 {text-align:left;} #s1 {color:#FFA61A;font-size:11pt;}
+    #s2 {font-size:11pt;} </style></head><body><p id="s0"><a href="articy://localhost/view/~/72057598332899526/?useRef"><span
+    id="s1">Manfred</span></a><span id="s2"> </span><span id="s2">was just a usual
+    game designer and lived a happy life, until he had to create a game with a truly
+    non-linear story. After completely getting lost in the branching structure of
+    his game, he had a nervous br</span><span id="s2">ea</span><span id="s2">kdown
+    and finally admitted himself to </span><span id="s2">the nearest</span><span id="s2">
+    mental hospital. </span></p><p id="s0"><span id="s2">The game begins with Manfred
+    awaking in a padded cell of the Lucas Artsington sanitarium for the mentally diseased.
+    He cannot remember the last days nor how he got where he now is. </span><a href="articy://localhost/view/~/72057598332899545/?useRef"><span
+    id="s1">Dr. Artie Cee</span></a><span id="s2"> </span><span id="s2">tries to calm
+    him down, but Manfred only has one goal: Getting out of there as fast as possible.
+    </span></p></body></html>'
+  - Atombombenbausatz
+  - 
+  - Schlaftabletten
+  - 
+  - "Waffenf\xE4higes Plutonium"
+  - 
+  - "Schl\xFCssel"
+  - 
+  - Brechstange
+  - 
+  - Kabel
+  - 
+  - Bombe
+  - 
+  - Banane
+  - 
+  - Aluminiumfolie
+  - 
+  - Angereichertes Plutonium
+  - 
+  - "Z\xFCnder"
+  - 
+  - Hamster
+  - 
+  - Banane mit Schlaftabletten
+  - 
+  - Besen
+  - 
+  - "Brief\xF6ffner"
+  - 
+  - Unbekannte Stimme
+  - 
+  - Hamster
+  - 
+  - Wache
+  - 
+  - Dr. Artie Cee
+  - 
+  - '"Wie ich lernte die Bombe zu lieben"'
+  - 
+  - Manfred
+  - "Manfred is the protagonist and player character. \nHe was just a usual game designer
+    and lived a happy life, until he tried to create a game with a truly non-linear
+    storyline. In the end he had a nervous breakdown and admitted himself to a mental
+    home."
+  - Korridor
+  - 
+  - Lobby
+  - The lobby is the first room you enter when using the main entrance to the Lucas
+    Artsington Sanitarium for the Mentally Disordered. It's a rather spartan and not
+    very friendly looking room. Behind the reception desk visitors are welcomed by
+    a charming security guard.
+  - "Au\xDFerhalb vom Sanatorium"
+  - 
+  - Keller
+  - 
+  - Zelle
+  - 
+  - Start Bildschirm
+  - 
+  - Nevigo
+  - 
+  - Ode
+  - 
+  - Dr. Mansion
+  - 
+  - Sign
+  - 
+  - Sock
+  - 
+  - DoorToCell
+  - 
+  - DoorToLobby
+  - 
+  - DoorToCellar
+  - 
+  - Guard
+  - 
+  - Therapist
+  - 
+  - Leaflets
+  - 
+  - Microwave
+  - 
+  - Drawings
+  - 
+  - Job advertisement
+  - 
+  - Pills
+  - 
+  - Fruit Bowl
+  - 
+  - Exit
+  - 
+  - Therapist KnockedOut
+  - 
+  - Restart
+  - 
+  - Broom
+  - 
+  - Paintings
+  - 
+  - Ventilation Pipe
+  - 
+  - Duty Roster
+  - 
+  - Mousehole
+  - 
+  - Manual
+  - 
+  - Miniature Universe
+  - 
+  - DoorToCorridor
+  - 
+  - Drawer_01
+  - 
+  - Drawer_02
+  - 
+  - Overflow
+  - 
+  - Cage
+  - 
+  - Window
+  - 
+  - Locker
+  - 
+  - Therapist
+  - 
+  - Crowbar
+  - 
+  - DoorToCorridor
+  - 
+  - Therapist_knockedOut
+  - 
+  - Play
+  - 
+  - DoorToCorridor
+  - 
+  - Exit Sign
+  - 
+  - Note
+  - 
+  - Stuff
+  - 
+  - Books
+  - 
+  - Boxes
+  - 
+  - Medical Records
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Background layer
+  - 
+  - Background layer
+  - 
+  - Background layer
+  - 
+  - Background layer
+  - 
+  - Background layer
+  - 
+  - Background layer
+  - 
+  - lobby_character_DrArtieCee_Standing
+  - 
+  - lobby_character_DrArtieCee_Knockedout
+  - 
+  - lobby_object_Sleepingpills
+  - 
+  - lobby_character_Guard
+  - 
+  - lobby_character_Guard_Knockedout
+  - 
+  - lobby_character_Guard_Sleeping
+  - 
+  - cellar_object_Glowing_Sink
+  - 
+  - cellar_object_Woodrobe_Open
+  - 
+  - cellar_object_Cleaningcart
+  - 
+  - cellar_object_Hamster
+  - 
+  - cellar_object_Hamster_Opener
+  - 
+  - cell_Object_Crowbar
+  - 
+  - cell_character_DrArtieCee_Knockedout
+  - 
+  - cell_character_DrArtieCee_Standing
+  - 
+  - DrArtieCee
+  - 
+  - Guard
+  - 
+  - Hamster
+  - 
+  - Lunatic
+  - 
+  - Einstein
+  - 
+  - Chars_UnknownVoice
+  - 
+  - font
+  - 
+  - bevel_large
+  - 
+  - mouse_speak
+  - 
+  - mouse_take
+  - 
+  - mouse_walk
+  - 
+  - mouse_inspect
+  - 
+  - item_select
+  - 
+  - mouse_point
+  - 
+  - branch_background
+  - 
+  - cell_object_Crowbar
+  - 
+  - cell_character_DrArtieCee_Knockedout
+  - 
+  - cell_character_DrArtieCee_Standing
+  - 
+  - cell_background
+  - 
+  - cellar_background
+  - 
+  - cellar_object_Glowing_Sink
+  - 
+  - cellar_object_Woodrobe_Open
+  - 
+  - cellar_object_Cleaningcart
+  - 
+  - cellar_object_Hamster
+  - 
+  - cellar_object_Hamster_Opener
+  - 
+  - corridor_background
+  - 
+  - lobby_character_DrArtieCee_Knockedout
+  - 
+  - lobby_character_DrArtieCee_Standing
+  - 
+  - lobby_object_Sleepingpills
+  - 
+  - lobby_character_Guard_Knockedout
+  - 
+  - lobby_character_Guard_Sleeping
+  - 
+  - lobby_character_Guard
+  - 
+  - lobby_background
+  - 
+  - Exterior_Title
+  - 
+  - continue_active
+  - 
+  - ABomb_ConstructionKit
+  - 
+  - AluminiumFoil
+  - 
+  - Banana
+  - 
+  - Cable
+  - 
+  - Crowbar
+  - 
+  - Key
+  - 
+  - Pills
+  - 
+  - Detonator
+  - 
+  - Plutonium
+  - 
+  - EnrichedPlutonium
+  - 
+  - Bomb
+  - 
+  - Item_Hamster
+  - 
+  - Item_LetterOpener
+  - 
+  - Item_SleepingBanana
+  - 
+  - Item_Broom
+  - 
+  - music
+  - 
+  - Exterior_End_Bad
+  - 
+  - Exterior_End_Good
+  - 
+  - Exterior_End_Neutral
+  - 
+  - Images
+  - Characters
+  - UI
+  - Screens
+  - Cell
+  - Cellar
+  - Corridor
+  - Lobby
+  - Exterior
+  - Dialog
+  - Items
+  - Demo assets
+  - Videos
+  - Audio
+  - Documents
+  - Items
+  - Characters
+  - Clickable Zones
+  - Clickable Zones
+  - Scene_Objects
+  - Clickable Zones
+  - Scene_Objects
+  - Clickable Zones
+  - Scene_Objects
