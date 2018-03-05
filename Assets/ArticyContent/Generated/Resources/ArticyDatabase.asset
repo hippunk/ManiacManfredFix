@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -1676762633, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
   m_Name: ArticyDatabase
   m_EditorClassIdentifier: 
-  mHierarchy: {fileID: 114181779597955666}
+  mHierarchy: {fileID: 114978899210533050}
   mLocalization: {fileID: 114273740267785586}
   mInternalProject:
     mName: Maniac Manfred 3.0
@@ -702,24 +702,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbac13b9c6e38df4ebbee320d5381d40, type: 3}
   m_Name: ArticyScriptFragments
   m_EditorClassIdentifier: 
---- !u!114 &114181779597955666
-MonoBehaviour:
-  m_ObjectHideFlags: 3
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1655710724, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
-  m_Name: HierarchyManager
-  m_EditorClassIdentifier: 
-  serializedNodes:
-  - id: 72057598332895233
-    parent: 0
-    technicalName: ManiacManfred
-    articyType: Project
-    childCount: 0
-    indexOfFirstChild: 1
 --- !u!114 &114183364318721644
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -2109,3 +2091,15 @@ MonoBehaviour:
   mThrowOnMissingText: 0
   mClearOnLanguageSwitch: 1
   mExportLanguage: 
+--- !u!114 &114978899210533050
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1655710724, guid: df2ec02f61e861546b9427c26ccacb8d, type: 3}
+  m_Name: HierarchyManager
+  m_EditorClassIdentifier: 
+  serializedNodes: []
